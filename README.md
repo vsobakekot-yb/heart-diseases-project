@@ -39,13 +39,13 @@ http://127.0.0.1:8000/docs
 
 ## API
 
- HealthCheck GET/ :
+ HealthCheck GET/ , пример ответа:
 
 {
   "message": "Heart Disease Prediction Service is running"
 }
 
-POST /predict
+POST /predict , пример ответа
 
 {
   "predictions": [
